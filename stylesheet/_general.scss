@@ -1,0 +1,153 @@
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+.container{
+    width: 1294px;
+    padding: {
+        left: 8.7rem;
+        right: 10.6rem;
+    }
+}
+.padding{
+    padding: {
+        top: 5rem;
+        bottom: 5rem;
+    };
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-col{
+    flex-direction: column;
+}
+.text-center{
+    text-align: center;
+}
+.ver-center{
+    align-items: center;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.hor-center{
+    justify-content: center;
+}
+.flex-start{
+    justify-content: flex-start;
+}
+.flex-30{
+    flex: 0 1 31%;
+}
+.flex-50{
+    flex: 0 1 50%;
+}
+.flex-60{
+    flex: 0 1 60%;
+}
+.flex-48{
+    flex: 0 1 48%;
+}
+.flex-40{
+    flex: 0 1 40%;
+}
+.flex-23{
+    flex: 0 1 23%;
+}
+.flex-15{
+    flex: 0 1 15%;
+}
+a{
+    text-decoration: none;
+    color: $white;
+    text-transform: capitalize;
+}
+body{
+    font-family: $font;
+}
+h1{
+    font: {
+        size: 53px;
+    }
+}
+h1, h2,h3,h4,h5,h6{
+    line-height: 1.2;
+    color: $heading-color;
+}
+h1,h2,h3{
+    font-weight: 900;
+}
+h2{
+    font-size: 36px;
+    text-transform: capitalize;
+}
+h3{
+    font-size: 30px;
+    line-height: 1.5;
+}
+h5{
+    color: $primary-red-color;
+    line-height: 2;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+h4{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 18px;
+}
+p{
+    line-height: 1.5;
+    font-weight: 400;
+    color: $paragraph-color;
+}
+.p-heading{
+    font-size: 18px;
+}
+.p-text{
+    font-size: 15px;
+}
+%btn{
+    display: inline-block;
+    padding: 8px 18px;
+    border-radius: 20px;
+    border: 1px solid;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 15px;
+    border-color: $primary-red-color;
+}
+.btn-primary{
+    @extend%btn;
+    color: $white;
+    background-color: $primary-red-color;
+}
+.btn-secondary{
+    @extend%btn;
+    color: $primary-red-color;
+}
+.btn-tertiary{
+    @extend%btn;
+    background-color: $primary-red-color;
+    border-color: $white;
+}
+.active{
+    background-color: rgba($primary-red-color, 0.8);
+    padding: 28px 10px;
+    color: $white !important;
+}
+.heading{
+    padding: 50px 0;
+    background-color: $primary-red-color;
+    h1{
+        text-transform: capitalize;
+        font-size: 38px;
+        color: $white;
+    }
+    p{
+        font-size: 15px;
+        color: $white;
+        margin-top: 18px;
+    }
+}

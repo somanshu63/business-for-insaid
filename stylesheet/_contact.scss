@@ -1,0 +1,49 @@
+.contact-details{
+    background-color: $light-grey-bg;
+    .details-item{
+        margin-top: 50px;
+        i{
+            padding: 30px;
+            border-radius: 50%;
+            background-color: $grey-bg;
+            color: $primary-red-color;
+            font-size: 32px;
+        }
+        .address-heading{
+            font-size: 18px;
+            text-transform: capitalize;
+            margin: 18px;
+        }
+        .address-text{
+            font-weight: 300;
+        }
+    }
+}
+.contact-know{
+    figure{
+        iframe{
+            width: 100%;
+            height: 300px;
+        }
+    }
+    .form-control{
+        width: 90%;
+        border: 2px solid $grey-bg;
+        padding: 12px;
+        margin: 10px 0;
+        border-radius: 5px;
+        &::placeholder{
+            font-size: 18px;
+            text-transform: capitalize;
+            color: $paragraph-color;
+        }
+    }
+    textarea{
+        resize: none;
+    }
+    .btn-primary{
+        margin-top: 20px;
+        padding: 18px 24px;
+        border-radius: 30px;
+    }
+}

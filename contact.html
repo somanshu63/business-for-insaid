@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>assignment-1-SCSS</title>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <script src="https://kit.fontawesome.com/615eec2c8f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="home">
+    <header>
+        <div class="container flex sm-column ver-center header">
+            <div class="flex">
+                <address>
+                    <i class="fa-solid fa-phone-flip"></i>
+                    +1-1245-678-980
+                </address>
+                <address>
+                    <i class="fa-solid fa-envelope"></i>
+                    info@yourdomain.com
+                </address>
+            </div>
+            <nav>
+                <ul class="flex">
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-facebook-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fa-solid fa-basketball"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container navbar flex ver-center">
+            <a href="" class="brand">tech</a>
+            <label class="bars" for="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <input id="toggle" type="checkbox">
+            <nav class="nav">
+                <ul class="flex sm-column navbar-list ver-center">
+                    <li>
+                        <a href="index.html">home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">about us</a>
+                    </li>
+                    <li>
+                        <a href="services.html">services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-hover">
+                            <div class="dropdown">
+                                <button class="dropbtn">pages<i class="fa-solid fa-angle-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="pricing.html">pricing</a>
+                                    <a href="#">portfolio</a>
+                                    <a href="error.html">404 page</a>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-hover">
+                            <div class="dropdown">
+                                <button class="dropbtn">blog<i class="fa-solid fa-angle-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="#">blog</a>
+                                    <a href="#">blog single</a>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="active">contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="heading flex ver-center hor-center flex-col">
+            <h1>contact us</h1>
+            <p>Aspernatur at enim excepturi facere in reiciendis</p>
+        </div>
+        <section class="padding container text-center contact-details">
+            <p class="p-text">Lorem ipsum dolor sit amet, consectetur adipscing elit. Accussamus alias aliquid delectus, dolor<br> doloremque enim eos est fugit inventore ipsam iure laudantium molestiae</p>
+            <div class="flex sm-column details-list">
+                <div class="flex-30 sm-width-full details-item">
+                    <i class="fa-solid fa-location-arrow"></i>
+                    <address class="address-heading">address</address>
+                    <address class="address-text">132 Manhatten Str., NewYork,US</address>
+                </div>
+                <div class="flex-30 sm-width-full details-item">
+                    <i class="fa-solid fa-phone-flip"></i>
+                    <address class="address-heading">phone number</address>
+                    <address class="address-text">1-234-567-2401</address>
+                </div>
+                <div class="flex-30 sm-width-full details-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <address class="address-heading">email</address>
+                    <address class="address-text">mail@webthemez.com</address>
+                </div>
+            </div>
+        </section>
+        <section class="contact-know container padding text-center">
+            <h2>let us know</h2>
+            <p class="p-heading">Lorem ipsum dolor sit amet, consectetur adipscing elit.Aspernatur at<br>enim excepturi facere in non reiciendis</p>
+            <div class="flex sm-column">
+                <figure class="flex-40 sm-width-full">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.12307380899!2d12.490042215122584!3d41.89021017922113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColosseum!5e0!3m2!1sen!2sin!4v1656745850700!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </figure>
+                <div class="flex-60 sm-width-full">
+                    <form action="">
+                        <input type="text" class="form-control" placeholder="Full Name" name="text">
+                        <input type="text" class="form-control" name="email" placeholder="Email">
+                        <textarea name="message" placeholder="message" class="form-control" id="message" cols="20" rows="15"></textarea>
+                        <button class="btn-primary">send your message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container padding text-center">
+            <div class="flex-start sm-column flex">
+                <ul class="flex-25 sm-width-full">
+                    <h4>reach us</h4>
+                    <address>
+                        <i class="fa-solid fa-location-arrow"></i>
+                        #123, manhatt 7 avenu, NYC
+                    </address>
+                    <address>
+                        <i class="fa-solid fa-phone-flip"></i>
+                        +1-1245-678-980
+                    </address>
+                    <address>
+                        <i class="fa-solid fa-envelope"></i>
+                        info@yourdomain.com
+                    </address>
+                </ul>
+                <div class="flex ul2 flex-50 sm-width-full">
+                    <ul class="flex-25 site-links">
+                        <h4>site links</h4>
+                        <li>
+                            <a href="index.html">home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">about us</a>
+                        </li>
+                        <li>
+                            <a href="services.html">services</a>
+                        </li>
+                        <li>
+                            <a href="">portfolio</a>
+                        </li>
+                        <li>
+                            <a href="pricing.html">pricing</a>
+                        </li>
+                    </ul>
+                    <ul class="flex-20 quick-links">
+                        <h4>quick links</h4>
+                        <li>
+                            <a href="">blog</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">contact us</a>
+                        </li>
+                        <li>
+                            <a href="">privacy policy</a>
+                        </li>
+                        <li>
+                            <a href="">terms & conditions</a>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="flex-20 follow-us">
+                    <h4>follow us</h4>
+                    <nav>
+                        <ul class="flex">
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-linkedin"></i>         
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </ul>
+            </div>
+            <small>by WebThemez. <br>&copy;All Rights Reserved</small>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+.p-heading{
+    margin: 24px 0 40px 0;
+    line-height: 1.8;
+}
+h2{
+    font-size: 30px;
+}
+.products{
+    padding-bottom: 0;
+    background-color: $light-grey-bg;
+    padding-bottom: 30px;
+    .p-heading{
+        color: $footer-text;
+    }
+    hr{
+        border: 0.1px solid rgba($footer-text, 0.3);
+    }
+    .first-3{
+        margin-top: 40px;
+    }
+    .product-item{
+        margin: 40px 0;
+        text-align: left;
+        h4{
+            margin: 18px 0;
+        }
+        p{
+            color: $heading-color;
+        }
+        img{
+            width: 70px;
+        }
+    }
+}
+.best-servicespage{
+    @extend%best;
+    div{
+        h4{
+            font-size: 20px;
+        }
+        span{
+            font-size: 30px;
+            color: $white;
+            font-weight: 400;
+            margin: 0 12px;
+        }
+        p{
+            font-weight: 300;
+            margin-bottom: 4px;
+        }
+    }
+    
+}
+.best-awarded{
+    article{
+        img{
+            width: 80px;
+            margin-bottom: 30px;
+        }
+        h3{
+            width: 105%
+        }
+    }
+    figure{
+        margin-top: 60px;
+    }
+}
